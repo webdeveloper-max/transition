@@ -1,0 +1,137 @@
+div{
+  width: 250px;
+  height:250px;
+  margin:250px;
+  background-color: brown;
+  transition-property:all ;
+  transition-delay: 1s;
+  transition-duration: 5s;
+  transition-timing-function: ease-in-out;
+   /* transition:all 1s 5s; */
+
+}
+
+
+div:hover{
+  width: 600px;
+  height:600px;
+  transform: rotate(180deg);
+  border-radius: 50%;
+  background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* div{
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    background-color: red;
+    transition-property:all;
+    transition-delay: 1s;
+    transition-duration: .5s;     */
+     /* 100ms=.1s 
+    transition-timing-function: ease-in; */
+
+     /* transition: all .5 linear */ */
+
+/* }
+div:hover{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    transform: rotate(180deg); */
+/* }  */
+
+.one{
+    width: 200px;
+    height: 200px;
+    background: rgb(235, 127, 127);
+    transition: width 2s;
+  }
+  .one:hover {
+      width: 500px;
+    }
+  
+  .two{
+    width: 200px;
+    height: 200px;
+    background: rgb(112, 164, 233);
+    transition: width 2s;
+    transition-delay:  3s;
+  }
+  .two:hover {
+      width: 500px;
+      background: purple;
+    }
+  
+  
+    .three{
+    width: 200px;
+    height: 200px;
+    background: rgb(247, 238, 146);
+    transition-duration: .5s;
+  }
+  .three:hover {
+      width: 500px;
+    }
+  
+  .four{
+    width: 200px;
+    height: 200px;
+    background: rgb(115, 246, 113);
+    transition-property: width ;
+  }
+  .four:hover {
+      width: 600px;
+    }
+  
+  
+  
+    
+  
+   
+    
+     #div1, #div2, #div3, #div4, #div5 , #div6 {
+      font-size: 30px;
+    }
+    #div1 {transition-timing-function: linear;}
+    #div2 {transition-timing-function: ease;}
+    #div3 {transition-timing-function: ease-in;}
+    #div4 {transition-timing-function: ease-out;}
+    #div5 {transition-timing-function: ease-in-out;}
+    #div6 {transition-timing-function:cubic-bezier(.47,1.01,1,-0.12);}
+    
+   
+     
+   
